@@ -30,7 +30,7 @@ public class WebAutomator {
 	}
 
 	private WebDriver createLocalDriver(Browser browser) throws Exception {
-		System.out.println("Local driver");
+		System.out.println("Local driver - git");
 		WebDriver normalDriver = null;
 		switch (browser) {
 		case CHROME:
